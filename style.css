@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('C:\Users\Muhammad Hassan\OneDrive\Desktop\FrontEnd Mentor\Blog-Preview-Card\blog-preview-card-main\blog-preview-card-main\assets\fonts\static\Figtree-Medium.ttf') format('truetype');
+}
+
+* {
+       font-family: 'MyFont', sans-serif;  
+}
+
+body {
+    background-color: #F4D04E;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    /* margin-left: 40%; */
+}
+
+.main {
+    height: 522px;
+    width: 384px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 7px 7px 0 0px rgba(0, 0, 0, 1);
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 10px;
+    height: 200px;
+    width: 336px;
+    margin: 24px;
+}
+
+.box {
+    background-color: #F4D04E;
+    height: 29px;
+    width: 82px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 0px 24px 24px;
+    border-radius: 3px;
+}
+
+.box p {
+    font-weight: 700;
+    font-size: 14px;  
+}
+
+#date {
+    margin: 0 0 24px 24px;
+    font-weight: 500;
+}
+
+h2 {
+    margin: 0 0 24px 24px;  
+}
+
+h2:hover {
+    color: #F4D04E;
+}
+
+#description {
+    margin: 0 0 0 24px;
+    color: #6b6b6b;
+}
+
+.author {
+    display: flex;
+}
+
+.author img {
+    height: 32px;
+    width: 32px;
+}
+.author p {
+    margin-top: 30px;
+    font-weight: bold;
+}
